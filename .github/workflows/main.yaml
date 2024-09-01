@@ -27,3 +27,6 @@ jobs:
 
       - name: Show public IP of the runner
         run: curl -s https://ipinfo.io/ip
+
+      - name: Sleep
+        run: sleep 6000
